@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7af24918_539e1557",
+        "filename": "lib/extract.c",
+        "patchSetId": 7
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 8640
+      },
+      "writtenOn": "2014-04-26T11:38:56Z",
+      "side": 1,
+      "message": "All HAVE_SELINUX gaurds were removed starting in 4.3. Why add it back here? And where will this be set to true at? BoardConfig\u0027s removed this in 4.3.",
+      "revId": "8b4963f46d1b976c423e2b980912c09a1a84dd12",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
