@@ -34,6 +34,24 @@
       "revId": "8b4963f46d1b976c423e2b980912c09a1a84dd12",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7af24918_f3c48141",
+        "filename": "lib/extract.c",
+        "patchSetId": 7
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 6051
+      },
+      "writtenOn": "2014-04-26T11:49:01Z",
+      "side": 1,
+      "message": "I did not modify the flag to keep original compatibility with older repos not having selinux\n\nThis can be a standalone binary",
+      "parentUuid": "7af24918_53b575cb",
+      "revId": "8b4963f46d1b976c423e2b980912c09a1a84dd12",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
