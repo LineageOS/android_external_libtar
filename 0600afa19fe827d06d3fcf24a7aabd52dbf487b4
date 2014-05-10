@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da0c15f0_ff1f3759",
+        "filename": "lib/encode.c",
+        "patchSetId": 15
+      },
+      "lineNbr": 163,
+      "author": {
+        "id": 5503
+      },
+      "writtenOn": "2014-05-10T05:14:59Z",
+      "side": 0,
+      "message": "The uid/gid should always be encoded.  The numeric option should only be checked on decode.",
+      "revId": "0600afa19fe827d06d3fcf24a7aabd52dbf487b4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
