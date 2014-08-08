@@ -51,6 +51,24 @@
       "revId": "cd1b43bc5b5799e0798d0d277bde6e84666d80e8",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a061dce_bf3f5624",
+        "filename": "libtar/libtar.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 170,
+      "author": {
+        "id": 5503
+      },
+      "writtenOn": "2014-08-08T07:07:33Z",
+      "side": 1,
+      "message": "Ah, okay, I see that now.  Thanks!",
+      "parentUuid": "9a061dce_ffad4e89",
+      "revId": "cd1b43bc5b5799e0798d0d277bde6e84666d80e8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
