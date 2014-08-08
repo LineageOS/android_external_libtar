@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "9a061dce_1fbbe2c5",
+        "filename": "libtar/ChangeLog",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 6051
+      },
+      "writtenOn": "2014-08-08T06:43:01Z",
+      "side": 1,
+      "message": "I think you can remove this email address entry",
+      "revId": "cd1b43bc5b5799e0798d0d277bde6e84666d80e8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a061dce_c8489730",
         "filename": "libtar/libtar.c",
         "patchSetId": 1
@@ -13,6 +30,24 @@
       "writtenOn": "2014-08-07T10:18:25Z",
       "side": 1,
       "message": "Why change continue to break (and again below at line 392)?",
+      "revId": "cd1b43bc5b5799e0798d0d277bde6e84666d80e8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a061dce_ffad4e89",
+        "filename": "libtar/libtar.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 170,
+      "author": {
+        "id": 6051
+      },
+      "writtenOn": "2014-08-08T06:43:01Z",
+      "side": 1,
+      "message": "to spare a few loops during processing\n\nthis loop is applied to every file entry you backup. If an exclusion is matched, do not continue checking other exclusion entries",
+      "parentUuid": "9a061dce_c8489730",
       "revId": "cd1b43bc5b5799e0798d0d277bde6e84666d80e8",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
