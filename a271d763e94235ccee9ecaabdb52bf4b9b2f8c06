@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a061dce_5004297d",
+        "filename": "lib/append.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 116,
+      "author": {
+        "id": 6051
+      },
+      "writtenOn": "2014-08-10T08:24:46Z",
+      "side": 1,
+      "message": "why hide this one?",
+      "revId": "a271d763e94235ccee9ecaabdb52bf4b9b2f8c06",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a061dce_10dc7111",
+        "filename": "lib/block.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 6051
+      },
+      "writtenOn": "2014-08-10T08:24:46Z",
+      "side": 1,
+      "message": "why hide the error message ?, same for the next 2 occurences of return -2",
+      "revId": "a271d763e94235ccee9ecaabdb52bf4b9b2f8c06",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
