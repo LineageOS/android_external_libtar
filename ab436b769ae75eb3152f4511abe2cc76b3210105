@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a1b2928_7f068321",
+        "filename": "lib/append.c",
+        "patchSetId": 4
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 6051
+      },
+      "writtenOn": "2014-08-16T10:07:56Z",
+      "side": 1,
+      "message": "could be useful as we are supposed to enable / disable selinux context\n\nError is not fatal, but would only show if we ask to backup/restore context",
+      "revId": "ab436b769ae75eb3152f4511abe2cc76b3210105",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a1b2928_2a10474e",
+        "filename": "lib/block.c",
+        "patchSetId": 4
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 6051
+      },
+      "writtenOn": "2014-08-16T10:07:56Z",
+      "side": 1,
+      "message": "(optional) perror is fine here",
+      "revId": "ab436b769ae75eb3152f4511abe2cc76b3210105",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a1b2928_8a1d1b69",
+        "filename": "lib/block.c",
+        "patchSetId": 4
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 6051
+      },
+      "writtenOn": "2014-08-16T10:07:56Z",
+      "side": 1,
+      "message": "(optional) perror is fine here",
+      "revId": "ab436b769ae75eb3152f4511abe2cc76b3210105",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a1b2928_6a1a3f70",
+        "filename": "lib/block.c",
+        "patchSetId": 4
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 6051
+      },
+      "writtenOn": "2014-08-16T10:07:56Z",
+      "side": 1,
+      "message": "(optional) perror is fine here",
+      "revId": "ab436b769ae75eb3152f4511abe2cc76b3210105",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
