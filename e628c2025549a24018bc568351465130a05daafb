@@ -55,6 +55,24 @@
     },
     {
       "key": {
+        "uuid": "ffb9cba7_bbf2b899",
+        "filename": "lib/append.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 275,
+      "author": {
+        "id": 5503
+      },
+      "writtenOn": "2016-02-12T06:45:47Z",
+      "side": 1,
+      "message": "But I don\u0027t want or need to compile with _FILE_OFFSET_BITS set to anything.  On android at least, \"struct stat\" has a 64-bit st_size field (C type \"long long\") for both 32-bit and 64-bit platforms.  So the lstat() above in tar_append_file() will behave properly.  This is all tested and functional on a 32-bit android device.\n\nIn regards to the referenced manual page, it is incorrect.  th_get_size() is a macro, which calls oct_to_int(), which returned an \"int\" before this change.",
+      "parentUuid": "ffb9cba7_1b9f4451",
+      "revId": "e628c2025549a24018bc568351465130a05daafb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ffb9cba7_9bd6d44f",
         "filename": "lib/util.c",
         "patchSetId": 1
