@@ -37,6 +37,24 @@
     },
     {
       "key": {
+        "uuid": "ffb9cba7_1b9f4451",
+        "filename": "lib/append.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 275,
+      "author": {
+        "id": 14090
+      },
+      "writtenOn": "2016-02-12T06:12:10Z",
+      "side": 1,
+      "message": "But th_get_size returns off_t everywhere else.\nhttp://linux.die.net/man/3/th_get_size\n\nIf you change oct_to_int to return off_t, your definition of th_get_size will be correct.\n\n   #define th_get_size(t) oct_to_int((t)-\u003eth_buf.size)\n\nIf you want to support large files on a 32-bit system, then you need to compile with -D_FILE_OFFSET_BITS\u003d64. That will cause off_t to be 64 bit.\n\nportability.h sets following define for all platforms.\n\n    // Always use long file support.\n   #define _FILE_OFFSET_BITS 64",
+      "parentUuid": "ffb9cba7_9b933450",
+      "revId": "e628c2025549a24018bc568351465130a05daafb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ffb9cba7_9bd6d44f",
         "filename": "lib/util.c",
         "patchSetId": 1
