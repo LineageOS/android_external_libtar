@@ -16,6 +16,24 @@
       "revId": "04ce1180f9b2c22b69cbc0a19b87520dce4faadb",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffb9cba7_db20c9fa",
+        "filename": "lib/util.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 171,
+      "author": {
+        "id": 5503
+      },
+      "writtenOn": "2016-02-13T05:36:44Z",
+      "side": 1,
+      "message": "Generally snprintf is safer, but in this case I\u0027m not sure.  The sizing of the tmp buffer is relative to the size of the datatype being printed.  This is the same code as toybox uses, so I trust it\u0027s sane.  I guess the only unexplored corner case might be seeing how negative octal values might be printed...",
+      "parentUuid": "ffb9cba7_fbc58d5c",
+      "revId": "04ce1180f9b2c22b69cbc0a19b87520dce4faadb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
