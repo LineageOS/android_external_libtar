@@ -52,6 +52,24 @@
       "revId": "04ce1180f9b2c22b69cbc0a19b87520dce4faadb",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffb9cba7_3bd7a5c2",
+        "filename": "lib/util.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 171,
+      "author": {
+        "id": 5503
+      },
+      "writtenOn": "2016-02-13T05:48:12Z",
+      "side": 1,
+      "message": "Actually the size of tmp seems to be just a bit overly conservative.  The actual needed size, assuming a leading negative sign, is 1 + ROUNDUP(8*sizeof(int64_t)/3, 3) + 1 or 24.  This code, as written, will alloc 25 bytes.  The discrepancy between the needed and allocated sizes would continue to increase as the data size got larger... eg. int128_t would alloc 49 bytes but only need 44 bytes.",
+      "parentUuid": "ffb9cba7_db20c9fa",
+      "revId": "04ce1180f9b2c22b69cbc0a19b87520dce4faadb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
