@@ -34,6 +34,24 @@
       "revId": "04ce1180f9b2c22b69cbc0a19b87520dce4faadb",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffb9cba7_1b6c2135",
+        "filename": "lib/util.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 171,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2016-02-13T05:38:30Z",
+      "side": 1,
+      "message": "I wondered what would happen if you gave negative octal values when I was looking at the previous patchset last night too.",
+      "parentUuid": "ffb9cba7_db20c9fa",
+      "revId": "04ce1180f9b2c22b69cbc0a19b87520dce4faadb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
