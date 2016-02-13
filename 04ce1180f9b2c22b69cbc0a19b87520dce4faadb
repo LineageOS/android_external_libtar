@@ -70,6 +70,24 @@
       "revId": "04ce1180f9b2c22b69cbc0a19b87520dce4faadb",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffb9cba7_7bee7d89",
+        "filename": "lib/util.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 171,
+      "author": {
+        "id": 5503
+      },
+      "writtenOn": "2016-02-13T05:49:38Z",
+      "side": 1,
+      "message": "Obviously size \"can\u0027t\" be negative.  But mtime may, I think.  So I should definitely investigate that and compare against other tar implementations.",
+      "parentUuid": "ffb9cba7_1b6c2135",
+      "revId": "04ce1180f9b2c22b69cbc0a19b87520dce4faadb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
