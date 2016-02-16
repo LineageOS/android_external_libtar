@@ -88,6 +88,24 @@
       "revId": "04ce1180f9b2c22b69cbc0a19b87520dce4faadb",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffb9cba7_3fe6aa18",
+        "filename": "lib/util.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 171,
+      "author": {
+        "id": 5503
+      },
+      "writtenOn": "2016-02-16T08:05:19Z",
+      "side": 1,
+      "message": "Okay so size and mtime are both 12 byte fields.  GNU tar sign extends negative values so that eg. when mtime is -1, the field is filled with 0xff values.  The code as written here doesn\u0027t touch the bits between 64 and 95.  So I guess I\u0027ll need to add code to sign extend to arbitrary sizes.",
+      "parentUuid": "ffb9cba7_7bee7d89",
+      "revId": "04ce1180f9b2c22b69cbc0a19b87520dce4faadb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
