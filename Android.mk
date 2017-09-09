@@ -15,7 +15,6 @@ LOCAL_SRC_FILES := lib/append.c \
 			lib/output.c \
 			lib/util.c \
 			lib/wrapper.c \
-			compat/strlcpy.c \
 			compat/basename.c \
 			compat/dirname.c \
 			compat/strmode.c
