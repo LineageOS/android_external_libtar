@@ -3,6 +3,7 @@ LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 
 LOCAL_MODULE := libtar
+LOCAL_CLANG := false
 LOCAL_MODULE_TAGS = optional
 LOCAL_SRC_FILES := lib/append.c \
 			lib/block.c \
